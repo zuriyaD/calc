@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84496E9220DC09E8003F300B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84496E9120DC09E8003F300B /* AppDelegate.swift */; };
+		84496E9420DC09E8003F300B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84496E9320DC09E8003F300B /* ViewController.swift */; };
+		84496E9720DC09E8003F300B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84496E9520DC09E8003F300B /* Main.storyboard */; };
+		84496E9A20DC09E8003F300B /* TikTak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84496E9820DC09E8003F300B /* TikTak.xcdatamodeld */; };
+		84496E9C20DC09E8003F300B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84496E9B20DC09E8003F300B /* Assets.xcassets */; };
+		84496E9F20DC09E8003F300B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84496E9D20DC09E8003F300B /* LaunchScreen.storyboard */; };
+		84496EAA20DC09E8003F300B /* TikTakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84496EA920DC09E8003F300B /* TikTakTests.swift */; };
+		84496EB520DC09E8003F300B /* TikTakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84496EB420DC09E8003F300B /* TikTakUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84496EA620DC09E8003F300B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84496E8620DC09E8003F300B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84496E8D20DC09E8003F300B;
+			remoteInfo = TikTak;
+		};
+		84496EB120DC09E8003F300B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84496E8620DC09E8003F300B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84496E8D20DC09E8003F300B;
+			remoteInfo = TikTak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84496E8E20DC09E8003F300B /* TikTak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84496E9120DC09E8003F300B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84496E9320DC09E8003F300B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84496E9620DC09E8003F300B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84496E9920DC09E8003F300B /* TikTak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TikTak.xcdatamodel; sourceTree = "<group>"; };
+		84496E9B20DC09E8003F300B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84496E9E20DC09E8003F300B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84496EA020DC09E8003F300B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84496EA520DC09E8003F300B /* TikTakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84496EA920DC09E8003F300B /* TikTakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTakTests.swift; sourceTree = "<group>"; };
+		84496EAB20DC09E8003F300B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84496EB020DC09E8003F300B /* TikTakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84496EB420DC09E8003F300B /* TikTakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTakUITests.swift; sourceTree = "<group>"; };
+		84496EB620DC09E8003F300B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84496E8B20DC09E8003F300B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84496EA220DC09E8003F300B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84496EAD20DC09E8003F300B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84496E8520DC09E8003F300B = {
+			isa = PBXGroup;
+			children = (
+				84496E9020DC09E8003F300B /* TikTak */,
+				84496EA820DC09E8003F300B /* TikTakTests */,
+				84496EB320DC09E8003F300B /* TikTakUITests */,
+				84496E8F20DC09E8003F300B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84496E8F20DC09E8003F300B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84496E8E20DC09E8003F300B /* TikTak.app */,
+				84496EA520DC09E8003F300B /* TikTakTests.xctest */,
+				84496EB020DC09E8003F300B /* TikTakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84496E9020DC09E8003F300B /* TikTak */ = {
+			isa = PBXGroup;
+			children = (
+				84496E9120DC09E8003F300B /* AppDelegate.swift */,
+				84496E9320DC09E8003F300B /* ViewController.swift */,
+				84496E9520DC09E8003F300B /* Main.storyboard */,
+				84496E9B20DC09E8003F300B /* Assets.xcassets */,
+				84496E9D20DC09E8003F300B /* LaunchScreen.storyboard */,
+				84496EA020DC09E8003F300B /* Info.plist */,
+				84496E9820DC09E8003F300B /* TikTak.xcdatamodeld */,
+			);
+			path = TikTak;
+			sourceTree = "<group>";
+		};
+		84496EA820DC09E8003F300B /* TikTakTests */ = {
+			isa = PBXGroup;
+			children = (
+				84496EA920DC09E8003F300B /* TikTakTests.swift */,
+				84496EAB20DC09E8003F300B /* Info.plist */,
+			);
+			path = TikTakTests;
+			sourceTree = "<group>";
+		};
+		84496EB320DC09E8003F300B /* TikTakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84496EB420DC09E8003F300B /* TikTakUITests.swift */,
+				84496EB620DC09E8003F300B /* Info.plist */,
+			);
+			path = TikTakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84496E8D20DC09E8003F300B /* TikTak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84496EB920DC09E8003F300B /* Build configuration list for PBXNativeTarget "TikTak" */;
+			buildPhases = (
+				84496E8A20DC09E8003F300B /* Sources */,
+				84496E8B20DC09E8003F300B /* Frameworks */,
+				84496E8C20DC09E8003F300B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikTak;
+			productName = TikTak;
+			productReference = 84496E8E20DC09E8003F300B /* TikTak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84496EA420DC09E8003F300B /* TikTakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84496EBC20DC09E8003F300B /* Build configuration list for PBXNativeTarget "TikTakTests" */;
+			buildPhases = (
+				84496EA120DC09E8003F300B /* Sources */,
+				84496EA220DC09E8003F300B /* Frameworks */,
+				84496EA320DC09E8003F300B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84496EA720DC09E8003F300B /* PBXTargetDependency */,
+			);
+			name = TikTakTests;
+			productName = TikTakTests;
+			productReference = 84496EA520DC09E8003F300B /* TikTakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84496EAF20DC09E8003F300B /* TikTakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84496EBF20DC09E8003F300B /* Build configuration list for PBXNativeTarget "TikTakUITests" */;
+			buildPhases = (
+				84496EAC20DC09E8003F300B /* Sources */,
+				84496EAD20DC09E8003F300B /* Frameworks */,
+				84496EAE20DC09E8003F300B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84496EB220DC09E8003F300B /* PBXTargetDependency */,
+			);
+			name = TikTakUITests;
+			productName = TikTakUITests;
+			productReference = 84496EB020DC09E8003F300B /* TikTakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84496E8620DC09E8003F300B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84496E8D20DC09E8003F300B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84496EA420DC09E8003F300B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84496E8D20DC09E8003F300B;
+					};
+					84496EAF20DC09E8003F300B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84496E8D20DC09E8003F300B;
+					};
+				};
+			};
+			buildConfigurationList = 84496E8920DC09E8003F300B /* Build configuration list for PBXProject "TikTak" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84496E8520DC09E8003F300B;
+			productRefGroup = 84496E8F20DC09E8003F300B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84496E8D20DC09E8003F300B /* TikTak */,
+				84496EA420DC09E8003F300B /* TikTakTests */,
+				84496EAF20DC09E8003F300B /* TikTakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84496E8C20DC09E8003F300B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84496E9F20DC09E8003F300B /* LaunchScreen.storyboard in Resources */,
+				84496E9C20DC09E8003F300B /* Assets.xcassets in Resources */,
+				84496E9720DC09E8003F300B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84496EA320DC09E8003F300B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84496EAE20DC09E8003F300B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84496E8A20DC09E8003F300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84496E9420DC09E8003F300B /* ViewController.swift in Sources */,
+				84496E9220DC09E8003F300B /* AppDelegate.swift in Sources */,
+				84496E9A20DC09E8003F300B /* TikTak.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84496EA120DC09E8003F300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84496EAA20DC09E8003F300B /* TikTakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84496EAC20DC09E8003F300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84496EB520DC09E8003F300B /* TikTakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84496EA720DC09E8003F300B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84496E8D20DC09E8003F300B /* TikTak */;
+			targetProxy = 84496EA620DC09E8003F300B /* PBXContainerItemProxy */;
+		};
+		84496EB220DC09E8003F300B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84496E8D20DC09E8003F300B /* TikTak */;
+			targetProxy = 84496EB120DC09E8003F300B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84496E9520DC09E8003F300B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84496E9620DC09E8003F300B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84496E9D20DC09E8003F300B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84496E9E20DC09E8003F300B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84496EB720DC09E8003F300B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84496EB820DC09E8003F300B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84496EBA20DC09E8003F300B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TikTak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zuriya.TikTak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84496EBB20DC09E8003F300B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TikTak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zuriya.TikTak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84496EBD20DC09E8003F300B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TikTakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zuriya.TikTakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTak.app/TikTak";
+			};
+			name = Debug;
+		};
+		84496EBE20DC09E8003F300B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TikTakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zuriya.TikTakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTak.app/TikTak";
+			};
+			name = Release;
+		};
+		84496EC020DC09E8003F300B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TikTakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zuriya.TikTakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikTak;
+			};
+			name = Debug;
+		};
+		84496EC120DC09E8003F300B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TikTakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zuriya.TikTakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikTak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84496E8920DC09E8003F300B /* Build configuration list for PBXProject "TikTak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84496EB720DC09E8003F300B /* Debug */,
+				84496EB820DC09E8003F300B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84496EB920DC09E8003F300B /* Build configuration list for PBXNativeTarget "TikTak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84496EBA20DC09E8003F300B /* Debug */,
+				84496EBB20DC09E8003F300B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84496EBC20DC09E8003F300B /* Build configuration list for PBXNativeTarget "TikTakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84496EBD20DC09E8003F300B /* Debug */,
+				84496EBE20DC09E8003F300B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84496EBF20DC09E8003F300B /* Build configuration list for PBXNativeTarget "TikTakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84496EC020DC09E8003F300B /* Debug */,
+				84496EC120DC09E8003F300B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84496E9820DC09E8003F300B /* TikTak.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84496E9920DC09E8003F300B /* TikTak.xcdatamodel */,
+			);
+			currentVersion = 84496E9920DC09E8003F300B /* TikTak.xcdatamodel */;
+			path = TikTak.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84496E8620DC09E8003F300B /* Project object */;
+}
